@@ -1,0 +1,243 @@
+{
+  "start": [
+    "The colony wakes for the first time. {count} souls gather around the Wheel. Everything now depends on Squeektoshi."
+  ],
+  "nightfall": [
+    "Night {night}. Squeektoshi steps off the Wheel after {ran}. The furnace dims to embers.",
+    "Night {night}. The Wheel slows, then stops. Lanterns go out one by one.",
+    "Night {night}. Squeektoshi curls up to sleep. The colony whispers so as not to wake him."
+  ],
+  "wake": [
+    "Squeektoshi is back on the Wheel after {slept} of sleep. Smoke rises from the chimneys.",
+    "The Wheel creaks, then spins. After {slept} of darkness, the furnace roars again.",
+    "Morning comes when the Wheel turns. Today it came after {slept}."
+  ],
+  "wake_frozen": [
+    "The colony thaws slowly. Frost covers {pct}% of the streets, and the first workers chip ice off the doors.",
+    "Squeektoshi runs into a frozen town. {pct}% of it lies under ice, but the heat is coming back."
+  ],
+  "dream": [
+    "The colony dreams. In the dream, the Wheel never stops and the snow is warm.",
+    "A child tells the story of the Great Hamster who carried the sun in his cheeks.",
+    "In their sleep, the builders draw a tower nobody has built yet.",
+    "Someone dreams of a summer. Nobody alive remembers one.",
+    "The old ones dream of the first night, when the Wheel turned for the first time.",
+    "A dream spreads through the bunkhouses: somewhere beyond the storm, another Wheel is turning.",
+    "The night watch swears the Wheel turned once, all by itself, then stopped."
+  ],
+  "freeze": [
+    "The last embers die. The colony enters hibernation and waits for the Wheel.",
+    "The heat cellar is empty. Doors close, families huddle together. The town will sleep until Squeektoshi returns."
+  ],
+  "frost": [
+    "Frost creeps across the town: {pct}% of the streets are under ice.",
+    "The cold deepens. Ice now holds {pct}% of the colony."
+  ],
+  "unfreeze": [
+    "The furnace catches again. The hibernation is over.",
+    "Heat returns to the pipes. The colony opens its doors."
+  ],
+  "build_start": [
+    "Work begins on {building}.",
+    "The builders mark out the ground for {building}."
+  ],
+  "build_done": [
+    "{building} is finished. The colony grows.",
+    "{building} stands tall against the wind.",
+    "Lights come on in {building}."
+  ],
+  "arrivals": [
+    "Squeek block {block}. Out of the storm, drawn by the glow of the Wheel: {names}.",
+    "Squeek block {block}. A sled arrives: {names}. The colony makes room."
+  ],
+  "camp": [
+    "Not enough beds. {count} newcomers sleep around the furnace, waiting for new shelter."
+  ],
+  "housed": [
+    "{count} newcomers finally move into real beds."
+  ],
+  "sprint": [
+    "Squeektoshi ran for {minutes}. The furnace held a steady heat.",
+    "A run of {minutes}. The reserve climbed and the cold pulled back.",
+    "The Wheel turned for {minutes}. The colony felt it in the pipes."
+  ],
+  "record_sleep": [
+    "New record: the longest sleep, {slept}. The colony held on."
+  ],
+  "weather_clear": [
+    "The sky clears. For a while, the cold loosens its grip.",
+    "Clear sky over the crater. Stars, and a little less cold."
+  ],
+  "weather_wind": [
+    "The wind rises and howls through the streets. The furnace has to work harder.",
+    "A biting wind sweeps down from the crater walls."
+  ],
+  "weather_snow": [
+    "Snow falls again, soft and endless.",
+    "Heavy flakes drift down on the rooftops."
+  ],
+  "weather_blizzard": [
+    "A blizzard hits the crater. Nobody goes outside; everything depends on the Wheel.",
+    "Whiteout. The storm swallows the town and the cold doubles its bite."
+  ],
+  "weather_blizzard_end": [
+    "The blizzard passes. The colony digs itself out.",
+    "The storm is over. The streets are buried, but the Wheel still turns."
+  ],
+  "infra_tracks_s1": [
+    "Footprints in the snow. The first paths from the furnace are now worn into the ground.",
+    "The inner lanes are taking shape — packed snow where everyone walks."
+  ],
+  "infra_supply_12": [
+    "The first supply crates have been emptied and broken down for firewood.",
+    "Two crates from the sled are gone. Their planks went to the workshop."
+  ],
+  "infra_tracks_s2": [
+    "The paths now reach halfway across the crater. Workers move faster.",
+    "The colony's footprints form clear lanes all the way to the mid-ring."
+  ],
+  "infra_village": [
+    "Stone bridges cross the ring, and sign posts mark the forks. The camp begins to look like a real village.",
+    "Bridges and waymarkers go up. The colony is settling in."
+  ],
+  "infra_path_0": [
+    "The first road leaves the Wheel and cuts straight through the snow.",
+    "A packed lane now runs from the generator toward the first tents."
+  ],
+  "infra_path_1": [
+    "A second road is trodden out. Crates travel faster than they used to.",
+    "Another lane opens across the crater floor, marked by lantern posts."
+  ],
+  "infra_path_2": [
+    "The third road is packed hard. Workers stop wading through drifts.",
+    "A new spoke reaches out from the Wheel. The camp is taking shape."
+  ],
+  "infra_path_3": [
+    "The fourth road is open. Sleds glide where boots once sank.",
+    "Another lane is cleared and the frost no longer swallows it overnight."
+  ],
+  "infra_path_4": [
+    "The fifth road reaches the edge of the settled ground.",
+    "A long lane stretches toward the crater wall. Someone hangs a lamp at its end."
+  ],
+  "infra_path_5": [
+    "The sixth road is finished. The colony begins to look like a wheel itself.",
+    "A road to the far side is laid. Nothing in the camp is out of reach now."
+  ],
+  "infra_path_6": [
+    "The seventh and last spoke is laid. Every road now meets at the Wheel.",
+    "The final lane joins the rest. The whole colony turns around one center."
+  ],
+  "infra_supply_34": [
+    "Two more supply crates emptied. The colony has consumed what it brought.",
+    "Half the original stores are gone. Everything from here is earned by the Wheel."
+  ],
+  "infra_tracks_s3": [
+    "Footpaths now run the full length of every lane to the outer buildings.",
+    "The last stretch of frozen track is beaten flat. Every building is connected."
+  ],
+  "infra_supply_5": [
+    "The last supply crate is empty. Everything the colony owns, it built.",
+    "The final sled crate has been used. The colony stands on its own now."
+  ],
+  "infra_ring_n1": [
+    "The northern arc of the ring road is laid. The great circle has begun.",
+    "First quarter of the ring road complete. The colony is starting to loop itself."
+  ],
+  "infra_lamp_1": [
+    "A lamp post stands at the ring. The first light outside the furnace.",
+    "One lamp by the ring road. Small, but it pushes back the dark."
+  ],
+  "infra_ring_n2": [
+    "The eastern arc of the ring road is finished. Half the circle is there.",
+    "Two arcs of the ring. The eastern reach is paved and lit."
+  ],
+  "infra_lamp_2": [
+    "A second lamp post rises. The ring grows brighter.",
+    "Another lamp joins the ring. Two warm circles in the dark."
+  ],
+  "infra_lamp_3": [
+    "Three lamp posts now. Walking the ring at night is no longer a gamble.",
+    "The third lamp is up. The ring road glows."
+  ],
+  "infra_ring_n3": [
+    "Three-quarters of the ring road are complete. The southern arc closes in.",
+    "The southern arc is paved. One more stretch and the circle closes."
+  ],
+  "infra_lamp_4": [
+    "Four lamps mark the ring. The colony can be seen from the crater walls.",
+    "A fourth light on the ring. From above, the colony looks alive."
+  ],
+  "infra_lamp_5": [
+    "Five lamp posts circle the ring. Squeektoshi's glow reaches the outer edge.",
+    "Five lights on the ring. The colony shines in every direction."
+  ],
+  "infra_ring_n4": [
+    "The ring road is complete. The colony is a circle now, lit and paved.",
+    "The last arc of the ring locks in place. The great loop is done."
+  ],
+  "infra_lamp_6": [
+    "Six lamps — the ring is almost fully lit.",
+    "The sixth lamp is raised. The ring burns bright at every compass point."
+  ],
+  "infra_lamp_7": [
+    "Seven lamps line the ring. The crater floor glows like an ember.",
+    "The seventh lamp joins the ring. The colony blazes against the dark."
+  ],
+  "infra_lamp_8": [
+    "All eight lamps are standing. The ring road is fully lit, all thanks to Squeektoshi.",
+    "Eight lights on the ring. The colony has made itself a crown of fire."
+  ],
+  "infra_ring_n5": [
+    "Work begins on an outer ring beyond the first. The colony starts to claim more of the crater.",
+    "A second ring road takes shape at the edge of the colony. This one will take longer."
+  ],
+  "infra_lamp_9": [
+    "A ninth lamp post rises along the outer ring. The dark gets a little smaller.",
+    "Lamp nine stands. The outer ring starts to glow."
+  ],
+  "infra_lamp_10": [
+    "Ten lamps now. The outer ring is half-lit.",
+    "The tenth lamp is planted. Crews work by lamplight past midnight."
+  ],
+  "infra_paths_s4": [
+    "Wide roads reach the outer buildings. Supply sleds can now run without stopping.",
+    "The outer road grid is finished. Every corner of the colony is connected."
+  ],
+  "infra_ring_n6": [
+    "The second ring closes. Two circles of road now wrap the colony.",
+    "The outer ring is complete. Seen from the crater rim, the colony is a double crown of light."
+  ],
+  "infra_lamp_11": [
+    "The eleventh lamp is raised. The outer ring blazes to match the inner.",
+    "Eleven lamps. Nobody hides in the dark anymore."
+  ],
+  "infra_lamp_12": [
+    "Twelve lamps circle the colony. The crater walls reflect the glow.",
+    "The twelfth lamp is up. The colony has lit every lane."
+  ],
+  "infra_paths_s5": [
+    "The last roads are graded and packed. Every part of the colony is now reachable at a run.",
+    "Final roads complete. The colony moves as one — fast, warm, connected."
+  ],
+  "build_done_watchtower": [
+    "The Watchtower stands. From up there, the scouts can see the storm coming before anyone else.",
+    "The Watchtower is finished. Its lamp burns all night, a signal to those still out in the cold."
+  ],
+  "build_done_clinic": [
+    "The Clinic is open. The healers move in with their instruments and their quiet confidence.",
+    "The Clinic stands beside the infirmary. Frost retreats a little faster now."
+  ],
+  "build_done_grand_hall": [
+    "The Grand Hall is finished. For the first time, the whole colony can gather under one roof.",
+    "The Grand Hall opens its doors. Tonight, everyone is warm and no one eats alone."
+  ],
+  "build_done_mechanists": [
+    "The Mechanists Guild is complete. The builders move faster now — every tool sharpened, every joint fitted.",
+    "The Guild opens its forge bay. The sound of hammers on iron fills the crater."
+  ],
+  "build_done_thermal_heart": [
+    "The Thermal Heart is lit. Deep beneath the colony, the heat now flows without ceasing.",
+    "The Thermal Heart pulses. Every wall is warmer, every pipe full. The colony has found its second furnace."
+  ]
+}

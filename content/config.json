@@ -1,0 +1,139 @@
+{
+  "_doc": "Constantes d'équilibre. 1 work unit = 1 passage d'aimant sur la roue. À recaler sur les vraies données du hamster.",
+  "poll_seconds": 2,
+  "wu_scale": 2.7,
+  "max_work_per_s": 16.7,
+  "settlements_poll_s": 60,
+  "explorer_tx_url": "https://eth-sepolia.blockscout.com/tx/",
+  "save_every_s": 300,
+  "status_every_s": 1800,
+  "heat_per_work": 3.5,
+  "start_reserve": 3000,
+  "base_reserve_cap": 5000,
+  "comfort_reserve": 4000,
+  "unfreeze_reserve": 400,
+  "start_population": 8,
+  "base_demand_per_s": 0.06,
+  "demand_per_person_per_s": 0.003,
+  "sleep_demand_mult": 0.25,
+  "night_after_idle_s": 2700,
+  "dream_every_s": 5400,
+  "frost_rate_per_h": 0.12,
+  "thaw_per_work": 0.0004,
+  "frost_build_penalty": 0.8,
+  "temp_cold": -60,
+  "temp_warm": -4,
+  "rpm_bonus_max": 8,
+  "rpm_bonus_at_milli": 100000,
+  "sprint_rpm_milli": 95000,
+  "sprint_min_s": 180,
+  "record_min_rpm_milli": 60000,
+  "record_min_sleep_s": 3600,
+  "sim": {
+    "_doc": "Faux hamster nocturne pour tester sans l'API.",
+    "first_sleep_s": [60, 600],
+    "sleep_s_night": [600, 3600],
+    "sleep_s_day": [7200, 21600],
+    "night_hours": [20, 6],
+    "run_s": [300, 2700],
+    "rpm_milli": [55000, 110000],
+    "work_per_rev": 0.16,
+    "work_per_block": 11
+  },
+  "arrivals": {
+    "_doc": "Une arrivée tous les N Squeek blocks (les blocks sont très fréquents).",
+    "every_blocks": 150,
+    "people": [1, 3],
+    "camp_max": 8
+  },
+  "sprint_grace_s": 30,
+  "inhabitants": {
+    "carrier_fraction_cellar":   0.15,
+    "carrier_fraction_workshop": 0.25,
+    "fade_to_shelter_s":         14,
+    "fade_blizzard_s":            5,
+    "gather_span":                2.5
+  },
+  "sprint_say_every_s": 1800,
+  "record_step": 1.03,
+  "infra_stages": [
+    {"wu":   500, "wu_to":  2000, "id": "tracks_s1",  "show": ["TLW_infra_tracks_s1"]},
+    {"wu":   500, "wu_to":  2000, "id": "supply_12",   "hide": ["TLW_supply_1", "TLW_supply_2"]},
+    {"wu":  2000, "wu_to":  5000, "id": "tracks_s2",   "show": ["TLW_infra_tracks_s2"]},
+    {"wu":  2000, "wu_to":  5000, "id": "village",     "show": ["TLW_infra_village"]},
+    {"wu":  3000, "wu_to":  6000, "id": "path_0",       "show": ["TLW_infra_path_0"]},
+    {"wu":  4500, "wu_to":  7500, "id": "path_1",       "show": ["TLW_infra_path_1"]},
+    {"wu":  6000, "wu_to":  9000, "id": "path_2",       "show": ["TLW_infra_path_2"]},
+    {"wu":  7500, "wu_to": 10500, "id": "path_3",       "show": ["TLW_infra_path_3"]},
+    {"wu":  9000, "wu_to": 12000, "id": "path_4",       "show": ["TLW_infra_path_4"]},
+    {"wu": 10500, "wu_to": 13500, "id": "path_5",       "show": ["TLW_infra_path_5"]},
+    {"wu": 12000, "wu_to": 15000, "id": "path_6",       "show": ["TLW_infra_path_6"]},
+    {"wu":  3000, "wu_to":  5000, "id": "supply_34",   "hide": ["TLW_supply_3", "TLW_supply_4"]},
+    {"wu":  5000, "wu_to": 16000, "id": "tracks_s3",   "show": ["TLW_infra_tracks_s3"]},
+    {"wu":  8000, "wu_to": 12000, "id": "supply_5",    "hide": ["TLW_supply_5"]},
+    {"wu": 25000, "wu_to": 35000, "id": "ring_n1",     "show": ["TLW_infra_ring_n1"]},
+    {"wu": 28000, "wu_to": 35000, "id": "lamp_1",      "show": ["TLW_infra_lamp_1"]},
+    {"wu": 35000, "wu_to": 45000, "id": "ring_n2",     "show": ["TLW_infra_ring_n2"]},
+    {"wu": 35000, "wu_to": 40000, "id": "lamp_2",      "show": ["TLW_infra_lamp_2"]},
+    {"wu": 40000, "wu_to": 45000, "id": "lamp_3",      "show": ["TLW_infra_lamp_3"]},
+    {"wu": 45000, "wu_to": 55000, "id": "ring_n3",     "show": ["TLW_infra_ring_n3"]},
+    {"wu": 45000, "wu_to": 50000, "id": "lamp_4",      "show": ["TLW_infra_lamp_4"]},
+    {"wu": 50000, "wu_to": 55000, "id": "lamp_5",      "show": ["TLW_infra_lamp_5"]},
+    {"wu": 55000, "wu_to": 70000, "id": "ring_n4",     "show": ["TLW_infra_ring_n4"]},
+    {"wu": 55000, "wu_to": 62500, "id": "lamp_6",      "show": ["TLW_infra_lamp_6"]},
+    {"wu": 62500, "wu_to": 70000, "id": "lamp_7",      "show": ["TLW_infra_lamp_7"]},
+    {"wu": 70000, "wu_to": 80000, "id": "lamp_8",      "show": ["TLW_infra_lamp_8"]},
+    {"wu": 80000, "wu_to": 100000, "id": "ring_n5",    "show": ["TLW_infra_ring_n5"]},
+    {"wu": 80000, "wu_to":  90000, "id": "lamp_9",     "show": ["TLW_infra_lamp_9"]},
+    {"wu": 90000, "wu_to": 100000, "id": "lamp_10",    "show": ["TLW_infra_lamp_10"]},
+    {"wu": 100000, "wu_to": 115000, "id": "paths_s4",  "show": ["TLW_infra_paths_s4"]},
+    {"wu": 100000, "wu_to": 115000, "id": "ring_n6",   "show": ["TLW_infra_ring_n6"]},
+    {"wu": 100000, "wu_to": 110000, "id": "lamp_11",   "show": ["TLW_infra_lamp_11"]},
+    {"wu": 110000, "wu_to": 120000, "id": "lamp_12",   "show": ["TLW_infra_lamp_12"]},
+    {"wu": 120000, "wu_to": 130000, "id": "paths_s5",  "show": ["TLW_infra_paths_s5"]}
+  ],
+  "weather": {
+    "_doc": "Météo partagée par tous les visiteurs. 'cold' multiplie la consommation de chaleur, 'temp' décale la température affichée. Seul le hamster apporte de la chaleur.",
+    "start": "snow",
+    "states": {
+      "clear": {
+        "cold": 0.85,
+        "temp": 3,
+        "hours": [2, 6],
+        "next": {
+          "wind": 2,
+          "snow": 3
+        }
+      },
+      "wind": {
+        "cold": 1.1,
+        "temp": -4,
+        "hours": [1, 4],
+        "next": {
+          "clear": 2,
+          "snow": 2,
+          "blizzard": 1
+        }
+      },
+      "snow": {
+        "cold": 1.0,
+        "temp": -1,
+        "hours": [2, 6],
+        "next": {
+          "clear": 2,
+          "wind": 2,
+          "blizzard": 1
+        }
+      },
+      "blizzard": {
+        "cold": 1.4,
+        "temp": -10,
+        "hours": [1, 3],
+        "next": {
+          "snow": 2,
+          "wind": 1
+        }
+      }
+    }
+  }
+}
